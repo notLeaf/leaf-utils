@@ -1,7 +1,7 @@
 # Button pagination Command
 
 ## Example
-```json
+```js
 bot.command({
 name: "button-pagination",
 code: `$djsEval[(async () => {
