@@ -1,7 +1,7 @@
 # Hangman Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "hangman",
   code: `$djsEval[(async () => {
