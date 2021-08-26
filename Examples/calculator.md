@@ -1,7 +1,7 @@
 # Calculator Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "calculator",
   code: `$djsEval[(async () => {
