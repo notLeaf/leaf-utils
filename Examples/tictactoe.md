@@ -1,7 +1,7 @@
 # TicTacToe Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "tictactoe",
   code: `$djsEval[(async () => {
