@@ -30,9 +30,8 @@ npm install aoi.js
 ### Info
 
 - [Discord-buttons](https://www.npmjs.com/package/discord-buttons) You need to define and install discord-buttons (`npm install discord-buttons`)
-- [Define it](https://github.com/discord/discord-buttons) Put this below your client 
-(`const disbut = require('discord-buttons')
-disbut(bot.client)`)
+- [Define it](https://www.npmjs.com/package/leaf-utils) => `const disbut = require('discord-buttons')
+disbut(bot.client)`
 
 
 ## Links
