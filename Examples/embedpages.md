@@ -1,7 +1,7 @@
 # Embed Pagination Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "embed-pagination",
   code: `$djsEval[(async () => {
