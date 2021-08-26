@@ -5,7 +5,8 @@
   </p>
   <br />
   <p>
-    <a href="https://www.npmjs.com/package/leaf-utils"><img src="https://img.shields.io/npm/v/leaf-utils.svg?maxAge=3600" alt="NPM version" /></a>
+  <a href="https://www.npmjs.com/package/leaf-utils"><img src="https://img.shields.io/npm/v/leaf-utils.svg?maxAge=3600" alt="NPM version" /></a>
+  <a href="https://www.npmjs.com/package/leaf-utils"><img src="https://img.shields.io/npm/dt/leaf-utils.svg?maxAge=3600" alt="NPM downloads" /></a>
   </p>
 </div>
 
@@ -38,7 +39,7 @@ disbut(bot.client)`)
 
 - [Youtube](https://www.youtube.com/channel/UC9yRVadElzxSO3ZUywK6Yig) - My `Youtube Channel`
 - [Discord Server](https://discord.gg/yfD2Vmnr6F) - My `Discord Server`
-- [NPM](https://www.npmjs.com/package/leaf-utils) - Leaf-utils's `NPM`
+- [NPM](https://www.npmjs.com/package/leaf-utils) - Leaf-utils `NPM`
 
 
 ## Help
