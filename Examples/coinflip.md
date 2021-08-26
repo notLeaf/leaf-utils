@@ -1,7 +1,7 @@
 # Coinflip Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "cflip",
   code: `$djsEval[(async () => {
