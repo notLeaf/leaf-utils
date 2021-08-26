@@ -1,7 +1,7 @@
 # Snake Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "snake",
   code: `$djsEval[(async () => {
