@@ -1,7 +1,7 @@
 # Rock, Paper, Scissors Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "rps",
   code: `$djsEval[(async () => {
