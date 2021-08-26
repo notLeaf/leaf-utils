@@ -9,18 +9,18 @@ const Discord = require('discord.js');
 const leaf = require('leaf-utils');
 
 const page1 = new Discord.MessageEmbed() 
-    .setColor('RED');
-    .setTitle('Page 1');
+    .setColor('RED')
+    .setTitle('Page 1')
     .setDescription('Page 1')
  
 const page2 = new Discord.MessageEmbed()
-    .setColor('GREEN');
-    .setTitle('Page 2');
+    .setColor('GREEN')
+    .setTitle('Page 2')
     .setDescription('Page 2')
  
 const page3 = new Discord.MessageEmbed() 
-    .setColor('ORANGE');
-    .setTitle('Page 3');
+    .setColor('ORANGE')
+    .setTitle('Page 3')
     .setDescription('Page 3')
 
 //Settings
