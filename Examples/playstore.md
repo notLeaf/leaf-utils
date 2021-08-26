@@ -1,7 +1,7 @@
 # Playstore Command
 
 ## Example
-```json
+```js
 bot.command({
   name: "playstore",
   code: `$djsEval[(async () => {
