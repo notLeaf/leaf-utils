@@ -3,32 +3,38 @@
 ## Example
 ```js
 bot.command({
-name: "button-pagination",
-code: `$djsEval[(async () => {
-const { MessageButtonPages } = require("leaf-utils");
-const { MessageEmbed } = require('discord.js');
+  name: "button-pagination",
+  code: `$djsEval[(async () => {
+const Discord = require('discord.js')
+const leaf = require("leaf-utils");
 
-let embed1 = new MessageEmbed()
-    .setColor("RANDOM")
-    .setDescription("first page")
+let embed1 = new Discord.MessageEmbed()
+.setTitle('Page 1')
+.setDescription('page 1');
 
-    let embed2 = new MessageEmbed()
-    .setColor("RANDOM")
-    .setDescription("second page")
+let embed2 = new Discord.MessageEmbed()
+.setTitle('Page 2')
+.setDescription('page 2');
 
-    let embed3 = new MessageEmbed()
-    .setColor("RANDOM")
-    .setDescription("third page")
+let embed3 = new Discord.MessageEmbed()
+.setTitle('Page 3')
+.setDescription('page 3');
 
-    //Settings
-    const LeafPages = new MessageButtonPages()
-    .setEmbed([embed1, embed2, embed3]) //Embed object
-    .setDuration(30000) //Duration time MS.
-    .setCountPage(false) //Default: true.
-    .setEmoji("⏪", "⛔", "⏩") //Default: "⬅️", "❌", "➡️"
-    .setColor("green", "blurple", "green") //Default: "grey", "red", "grey"
+let pages = [embed1, embed2, embed3] 
 
-    LeafPages.buttonPages(message);
+leaf.buttonpages(client, message, pages, {
+  firstEmoji: '⏪',
+  backEmoji: '◀️', 
+  delEmoji: '🗑️', 
+  forwardEmoji: '▶️', 
+  lastEmoji: '⏩',
+  
+  btncolor: 'green', 
+  delcolor: 'red',
+  skipcolor: 'blurple', 
+   
+  skipBtn: true,
+})
 
 })()]`
 })
