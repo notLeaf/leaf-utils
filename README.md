@@ -20,18 +20,11 @@ Leaf-utils is a **simple package** to code with ease.
 
 ## Installation
 
-**Aoi.js 4.4.4 is required.**  
+**Node.js 16.6.0 or newer is required.**  
 
 ```sh-session
 npm install leaf-utils
-npm install aoi.js
 ```
-
-### Info
-
-- [Discord-buttons](https://www.npmjs.com/package/discord-buttons) You need to define and install discord-buttons (`npm install discord-buttons`)
-- [Define it](https://www.npmjs.com/package/leaf-utils) => `const disbut = require('discord-buttons')
-disbut(bot.client)`
 
 
 ## Links
