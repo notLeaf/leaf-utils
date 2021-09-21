@@ -8,7 +8,7 @@ module.exports = {
  let opponent = message.mentions.members.first()
   if (!opponent) return message.channel.send("**⛔ Please provide the user to challenge**")
 
-const { Connect4 } = require('leaf-test')
+const { Connect4 } = require('leaf-utils')
 
 new Connect4({
   message: message,
