@@ -5,8 +5,10 @@
   </p>
   <br />
   <p>
-  <a href="https://www.npmjs.com/package/leaf-utils"><img src="https://img.shields.io/npm/v/leaf-utils.svg?maxAge=3600" alt="NPM version" /></a>
-  <a href="https://www.npmjs.com/package/leaf-utils"><img src="https://img.shields.io/npm/dt/leaf-utils.svg?maxAge=3600" alt="NPM downloads" /></a>
+    
+[![discordBadge](https://img.shields.io/badge/Chat-Coding%20Planet-7289d9?style=for-the-badge&logo=discord)](https://discord.gg/yfD2Vmnr6F)
+[![downloadsBadge](https://img.shields.io/npm/dt/leaf-utils?style=for-the-badge)](https://npmjs.com/leaf-utils)
+[![versionBadge](https://img.shields.io/npm/v/leaf-utils?style=for-the-badge)](https://npmjs.com/leaf-utils)
   </p>
 </div>
 
