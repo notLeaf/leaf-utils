@@ -1,0 +1,18 @@
+{
+  "name": "leaf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "engines": {
+    "node": "16.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aoi.js": "^5.0.1",
+    "leaf-utils": "^1.0.8"
+  }
+}
