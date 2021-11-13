@@ -5,34 +5,54 @@
 module.exports = {
     name: "button-pages",
     code: `$djsEval[(async () => {
-    const Discord = require('discord.js');
-const leaf = require('leaf-utils');
-
-let embed1 = new Discord.MessageEmbed()
-.setTitle('Page 1');
-
-let embed2 = new Discord.MessageEmbed()
-.setTitle('Page 2');
-
-let embed3 = new Discord.MessageEmbed()
-.setTitle('Page 3');
-
-let pages = [embed1, embed2, embed3] 
-
-leaf.buttonpages(client, message, pages, {
-  firstEmoji: '⏪',
-  backEmoji: '◀️', 
-  delEmoji: '🗑️',
-  forwardEmoji: '▶️',
-  lastEmoji: '⏩', 
+  const { Leafbutton } = require('leaf-utils');
+  const Discord = require('discord.js');
   
-  btncolor: 'PRIMARY',
-  delcolor: 'DANGER', 
-  skipcolor: 'PRIMARY',
-   
-  skipBtn: true,
+  const page1 = new Discord.MessageEmbed()
+  .setTitle("Home")
+  .setFooter(message.member.displayName, message.author.displayAvatarURL({
+      dynamic: true
+  }))
+  .setColor('RED')
+  .setTimestamp()
+
+const page2 = new Discord.MessageEmbed()
+  .setTitle("Second")
+  .setFooter(message.member.displayName, message.author.displayAvatarURL({
+      dynamic: true
+  }))
+  .setColor('RED')
+  .setTimestamp()
+
+const page3 = new Discord.MessageEmbed()
+  .setTitle("Third")
+  .setFooter(message.member.displayName, message.author.displayAvatarURL({
+      dynamic: true
+  }))
+  .setColor('RED')
+  .setTimestamp()
+
+const pages = [page1, page2, page3]
+
+await Leafbutton({
+  message: message,
+  embeds: pages,
+  back: {
+      label: '⏪ Back',
+      style: 'PRIMARY',
+  },
+  home: {
+      label: '🏠 Home',
+      style: 'SUCCESS',
+  },
+  forward: {
+      label: 'Next ⏩',
+      style: 'DANGER',
+  },
+  time: 300000,
+  setDisabled: true,
+  othersMessage: 'Only <@{{author}}> can use buttons'
 })
-})()]
-$suppressErrors`
-}
+})()]`
+  }
 ```
