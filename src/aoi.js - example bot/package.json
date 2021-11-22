@@ -1,0 +1,22 @@
+{
+  "name": "leaf",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "engines": {
+    "node": "16.6"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@distube/spotify": "^1.0.0",
+    "aoi.js": "^5.0.3",
+    "distube": "^3.0.3",
+    "ffmpeg-static": "^4.4.0",
+    "leaf-utils": "^1.0.9",
+    "libsodium-wrappers": "^0.7.9"
+  }
+}
