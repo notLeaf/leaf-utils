@@ -35,6 +35,7 @@ const { ButtonPages } = require('leaf-utils');
                 style: 'PRIMARY',
                 emoji: '➡️',
             },
+            authorOnly: 'Only <@{{author}}> can use this button!',
         })
 ```
 
