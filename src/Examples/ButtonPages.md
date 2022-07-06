@@ -23,7 +23,7 @@ const pages = [page1, page2, page3];
 await ButtonPages({
     message: message,
     slash_command: false,
-    embeds: pages,
+    pages: pages,
     time: 300000,
     back: {
         label: " ",
